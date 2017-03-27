@@ -18,9 +18,11 @@
 
 	<div class="container">
       <div class="jumbotron">
-        <h1>Welcome to Website Name</h1>
-        <p></p>
-        <p>
+        <section class="row">
+          <div class="col-sm-12" align="center">
+              <img src="images/welcome.png" class="img-responsive">
+          </div>
+        </section>
           <a class="btn btn-lg btn-primary" href="home.php" role="button">Enter site &raquo;</a>
         </p>
       </div>

@@ -1,4 +1,52 @@
+/* Active menu item
+-------------------------------------------------- */
+#navbar a:hover,
+.navbar-header #navbar #navbar-header a,
+.welcome #navbar #welcome a,
+.home #navbar #home a,
+.about #navbar #about a,
+.contact #navbar #contact a, { 
+  color:#fff; background:gray;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
 body {
-  min-height: 2000px;
+  /* Margin bottom by footer height */
+  min-height: 500px;
   padding-top: 50px;
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #ddd;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 30px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
 }
